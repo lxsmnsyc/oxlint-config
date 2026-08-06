@@ -1,0 +1,40 @@
+{
+	"name": "@lxsmnsyc/oxlint-config",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "My personal oxlint setup",
+	"repository": {
+		"url": "https://github.com/lxsmnsyc/oxlint-config.git",
+		"type": "git"
+	},
+	"homepage": "https://github.com/lxsmnsyc/oxlint-config",
+	"bugs": {
+		"url": "https://github.com/lxsmnsyc/oxlint-config/issues"
+	},
+	"author": "Alexis Munsayac",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"prepublishOnly": "tsdown",
+		"build": "tsdown",
+		"watch": "tsdown --watch"
+	},
+	"keywords": [],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^26.1.2",
+		"oxfmt": "^0.61.0",
+		"oxlint": "^1.76.0",
+		"tsdown": "^0.22.14",
+		"typescript": "^7.0.2"
+	},
+	"peerDependencies": {
+		"oxlint": "^1"
+	},
+	"exports": {
+		".": "./dist/index.mjs",
+		"./react": "./dist/react.mjs",
+		"./package.json": "./package.json"
+	}
+}
