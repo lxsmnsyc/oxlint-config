@@ -18,11 +18,15 @@
 	"scripts": {
 		"prepublishOnly": "tsdown",
 		"build": "tsdown",
-		"watch": "tsdown --watch"
+		"watch": "tsdown --watch",
+		"cs:add": "changeset add",
+		"cs:ver": "changeset version",
+		"cs:pub": "changeset publish"
 	},
 	"keywords": [],
 	"license": "MIT",
 	"devDependencies": {
+		"@changesets/cli": "^2.31.1",
 		"@types/node": "^26.1.2",
 		"oxfmt": "^0.61.0",
 		"oxlint": "^1.76.0",
