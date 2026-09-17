@@ -1,5 +1,11 @@
 # @lxsmnsyc/oxlint-config
 
+## 0.1.3
+
+### Patch Changes
+
+- dd1bae7: Set `considerDefaultExhaustiveForUnions: true` for `typescript/switch-exhaustiveness-check`, so a `default` case counts as exhaustive for union types.
+
 ## 0.1.2
 
 ### Patch Changes
