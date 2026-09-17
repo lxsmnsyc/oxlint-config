@@ -161,7 +161,12 @@ export default defineConfig({
     'typescript/related-getter-setter-pairs': 'error',
     'typescript/require-await': 'error',
     'typescript/strict-void-return': 'error',
-    'typescript/switch-exhaustiveness-check': 'error',
+    'typescript/switch-exhaustiveness-check': [
+      'error',
+      {
+        considerDefaultExhaustiveForUnions: true,
+      },
+    ],
 
     // Import
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level-if-only-type-imports'],
