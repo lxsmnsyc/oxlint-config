@@ -43,5 +43,6 @@
 		".": "./dist/index.mjs",
 		"./react": "./dist/react.mjs",
 		"./package.json": "./package.json"
-	}
+	},
+	"packageManager": "pnpm@10.34.4"
 }
