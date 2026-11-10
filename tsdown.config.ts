@@ -4,6 +4,7 @@ export default defineConfig({
   entry: [
     'src/index.ts',
     {
+      node: 'src/node.ts',
       react: 'src/react.ts',
     },
   ],

@@ -41,6 +41,7 @@
 	},
 	"exports": {
 		".": "./dist/index.mjs",
+		"./node": "./dist/node.mjs",
 		"./react": "./dist/react.mjs",
 		"./package.json": "./package.json"
 	},
